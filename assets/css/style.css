@@ -1,4 +1,21 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: black;
+}
+
 .img-menu{
    width: 35px; 
    height: auto;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+.card-sin-borde{
+    border:none;
+}
+.bg-darks{
+    background:black;
 }

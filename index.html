@@ -1,65 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Landing-Page-Viajes-Chile</title>
 </head>
 
 <body>
   <!-- Navbar y Carrucel -->
-  <div class="container ">
+  <div id="inicio">
     <nav class="navbar navbar-expand-lg fixed-top mt-5 me-5">
-      <div class="container ">
-          <div class="ml-auto ms-5 text-white">
-            <img src="assets/img/viajes.svg" alt="" class="img-menu">
-            <a>Viajes Chile</a>
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto ">
-                  <li class="nav-item">
-                      <a class="nav-link text-white" aria-current="page" href="#">Inicio </a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link text-white" href="#">Quienes Somos </a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link text-white" href="#">Destacados</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link text-white" href="#">Contacto</a>
-                  </li>
-              </ul>
-          </div>
+      <div class="container-fluid">
+        <div class="ml-auto ms-5 text-white">
+          <img src="assets/img/viajes.svg" alt="" class="img-menu">
+          <a>Viajes Chile</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="#inicio">Inicio </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#quienes-somos">Quienes Somos </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#destacados">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </div>
-  </nav>
+    </nav>
     <!-- este es el carrucel de imagenes destacadas -->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          
-            <img src="/assets/img/carousel1.jpg " class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="/assets/img/carousel2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="/assets/img/carousel3.jpg" class="d-block w-100" alt="...">
-          </div>
-        
+
+          <img src="/assets/img/carousel1.jpg " class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+        </div>
+
       </div>
     </div>
   </div>
+
+  <!-- seccion de quienes somos  -->
+  <section id="quienes-somos">
+    <h2 class="text-center fs-1 text-white fw-bold py-4">
+      ¿Quienes Somos?
+    </h2>
+    <div class="container jusify-contend-sm-evently ">
+      <div class="row">
+        <div class="col-10 col-sm-10 col-md-4 col-lg-4 ">
+          <div class="card card-sin-borde">
+            <div class="card-header bg-info text-center">
+              <i class="fa-solid fa-plane fa-2x " style="color: #eff1f6;"></i>
+            </div>
+            <div class="card-body bg-darks text-white">
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat fugit libero,
+                deserunt facilis, nobis dolorem in veniam facere at, omnis ex reiciendis rerum eligendi. Doloribus
+                quisquam harum nam ea fuga.
+                Optio autem illo consequuntur exercitationem, magnam laudantium esse enim, fuga iusto, neque eos maiores
+                ut est fugit expedita praesentium perspiciatis. Magni aliquid, esse amet laboriosam iusto nam eum
+                dignissimos suscipit.
+                Officiis distinctio saepe repellendus incidunt excepturi hic odio at molestiae minus eaque possimus in
+                aliquam ducimus, doloremque atque omnis quis ipsum ?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-10 col-md-4 col-lg-4 ">
+          <div class="card card-sin-borde">
+            <div class="card-body bg-darks text-white">
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat fugit libero,
+                deserunt facilis, nobis dolorem in veniam facere at, omnis ex reiciendis rerum eligendi. Doloribus
+                quisquam harum nam ea fuga.
+                Optio autem illo consequuntur exercitationem, magnam laudantium esse enim, fuga iusto, neque eos maiores
+                ut est fugit expedita praesentium perspiciatis. Magni aliquid, esse amet laboriosam iusto nam eum
+                dignissimos suscipit.
+                Officiis distinctio saepe repellendus incidunt excepturi hic odio at molestiae minus eaque possimus in
+                aliquam ducimus, doloremque atque omnis quis ipsum ?</p>
+              </div>
+              <div class="card-header bg-info text-center">
+                <i class="fa-solid fa-mountain fa-2x " style="color: #eff1f6;"></i>
+              </div>
+            </div>
+        </div>
+        <div class="col-10 col-sm-10 col-md-4 col-lg-4 ">
+          <div class="card card-sin-borde">
+            <div class="card-header bg-info text-center">
+              <i class="fa-solid fa-route fa-2x " style="color: #eff1f6;"></i>
+            </div>
+            <div class="card-body bg-darks text-white">
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat fugit libero,
+                deserunt facilis, nobis dolorem in veniam facere at, omnis ex reiciendis rerum eligendi. Doloribus
+                quisquam harum nam ea fuga.
+                Optio autem illo consequuntur exercitationem, magnam laudantium esse enim, fuga iusto, neque eos maiores
+                ut est fugit expedita praesentium perspiciatis. Magni aliquid, esse amet laboriosam iusto nam eum
+                dignissimos suscipit.
+                Officiis distinctio saepe repellendus incidunt excepturi hic odio at molestiae minus eaque possimus in
+                aliquam ducimus, doloremque atque omnis quis ipsum ?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  </div>
+  </div>
+  <!-- seccion de destacados -->
+
+  <!-- formulario y contactos -->
+  <!-- pie de pag o footer -->
+
+
+  <!-- los iconos de fawesone -->
   <!-- <i class="fa-solid fa-plane"></i>
-<i class="fa-solid fa-mountain"></i>
-<i class="fa-solid fa-route"></i> -->
+    <i class="fa-solid fa-mountain"></i>
+    <i class="fa-solid fa-route"></i> -->
+
+  <!-- Recursos Utilizados 
+    bootstrap.com Version 5.3 -->
+
   <!-- cdns -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
