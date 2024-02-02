@@ -5,11 +5,13 @@ body{
 }
 
 .img-menu{
-   width: 35px; 
+   width: 45px; 
    height: auto;
+   font-family: 'Noto Sans', sans-serif;
 }
 
 h2{
+    font-family:sans-serif ;
     text-align: center;
     color: white;
 }
@@ -24,4 +26,7 @@ h2{
     object-fit: cover;
     width: 100%;
 }
-
+.navbar-toggler{
+    color: white;
+    background-color:white;
+}
